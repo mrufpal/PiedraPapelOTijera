@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Piedra Papel o Tijera!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <h1></h1>
+            <form action="/jugarContraLaMaquina">
+                <label for="nombreJugador">Nombre:</label><input name="nombreJugador" required> <br/>
+                <label for="jugada">Jugada:</label><br/>
+                <input type="radio" name="jugada" value="PIEDRA" required>PIEDRA<br/>
+                <input type="radio" name="jugada" value="PAPEL">PAPEL<br/>
+                <input type="radio" name="jugada" value="TIJERAS">TIJERA<br/>
+                <br/>
+                <input type="submit" value="Jugar!">
+                
+            </form>
+        </main>
+    </body>
+</html>
